@@ -1,0 +1,19 @@
+=== Fold 1: Train on Set1, Test on Set2 ===
+Best threshold from Set1: 1.00e-03
+Confusion Matrix on Set2: TN=283918 FN=2 | FP=0 TP=181
+Accuracy (Q2): 1.0000
+MCC: 0.9945
+Recall (TPR): 0.9891
+Precision (PPV): 1.0000
+
+=== Fold 2: Train on Set2, Test on Set1 ===
+Best threshold from Set2: 1.00e-02
+Confusion Matrix on Set1: TN=284005 FN=0 | FP=0 TP=183
+Accuracy (Q2): 1.0000
+MCC: 1.0000
+Recall (TPR): 1.0000
+Precision (PPV): 1.0000
+
+=== Summary ===
+Average MCC: 0.9973
+Average Q2: 1.0000
