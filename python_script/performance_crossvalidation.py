@@ -10,7 +10,7 @@ from sklearn.metrics import auc
 - the ROC curves and AUC
 
 === INSTRUCTION TO RUN ON TERMINAL ===
-python3 performace_crossvalidation.py set_1-class set_2.class total_set.class """
+python3 performace_crossvalidation.py set_1.class set_2.class total_set.class """
 
 def get_cm(filename, threshold, pe=3, pr=1):
     """create the confusion matrix"""
