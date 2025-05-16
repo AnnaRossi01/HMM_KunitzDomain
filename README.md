@@ -48,19 +48,19 @@ conda install -c bioconda hmmer
 
 ## Output files
 ### Training set
-- `rcsb_pdb_custom_report_20250505053057.csv` -- PDB csv file of the representative kunitz'type proteins
+- `rcsb_pdb_custom_report_20250505053057.csv` -- PDB csv file of the representative kunitz type proteins
   
 - __Clusters file__ -- file used and obtained with cd-hit clusterization
     - `pdb_kunitz_customreported_nr.fasta.clstr` -- output file 
 
-- __MSA__ -- file used and obtained with the Multiple sequence alignment performed with PDBeFOLD
+- __MSA__ -- file used and obtained with the MSA performed with PDBeFOLD
     - `tmp_pdb_efold_ids.txt` -- input file, all the IDs of the 23 representative proteins
     - `pdb_kunitz_rp.ali` -- output file
     - `pdb_kunitz_rp_formatted.ali` -- output formatted for being compatible with HMMER
   
 ### Test set 
 - __Positive sets__
-    - `all_kunitz.fasta` -- all positive human and not human kunitz's type protein retrieved from UniProt
+    - `all_kunitz.fasta` -- all positive human and not human kunitz type protein retrieved from UniProt
     - `to_remove.ids` -- output of BLAST search. IDs to remove from the total positive set because the redundancy between themselves and the training set 
     - `pos_1.fasta`, `pos_2.fasta` -- FASTA file of the divided and randomized initial positive set
     -  `pos_1.ids`, `pos_2.ids` -- IDS file of the divided and randomized total positive set
